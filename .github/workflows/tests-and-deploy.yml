@@ -32,4 +32,4 @@ jobs:
       - name: Deploy to Vercel
         run: |
           npm install -g vercel
-          vercel --prod --token=${{ secrets.PKMN_VERCEL }} --confirm --org ${{ secrets.VERCEL_ORG_ID }} --project ${{ secrets.VERCEL_PROJECT_ID }}
+          vercel --prod --token=${{ secrets.PKMN_VERCEL }} --confirm
