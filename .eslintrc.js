@@ -22,15 +22,15 @@ module.exports = {
   'rules': {
     'indent': [
       'error',
-        2
-      ],
+      2 
+    ],
     'linebreak-style': [
       'error',
       'unix'
     ],
     'quotes': [
       'error',
-      'single'
+      'single' 
     ],
     'semi': [
       'error',
