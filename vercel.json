@@ -1,0 +1,18 @@
+{
+    "version" : 2 ,
+    "construit" : [
+    {
+    "src" : "package.json" ,
+    "utiliser" : "@vercel/static-build" ,
+    "config" : {
+    "buildCommand" : "npm run build" ,
+    "outputDirectory" : "dist"
+    }
+    }
+    ],
+    "itinéraires" : [
+    { "src" : "/bundle.js" , "dest" : "/bundle.js" },
+    { "handle" : "système de fichiers" },
+    { "src" : "/(.*)" , "dest" : "/index.html" }
+    ]
+    }
